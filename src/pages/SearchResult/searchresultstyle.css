@@ -1,0 +1,6 @@
+.notfound_wording {
+  color: red;
+  display: flex;
+  font-size: 14px;
+  text-align: center;
+}

@@ -1,0 +1,61 @@
+.searchfilter_box {
+  border: 0px solid;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  padding: 24px;
+  position: relative;
+  top: -80px;
+  background-color: white;
+}
+
+.searchfilter_title {
+  margin-bottom: 16px;
+}
+
+.searchfilter_title h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.btn_cari {
+  border: 0px solid;
+  border-radius: 2px;
+  background-color: #5cb85f;
+  width: 92px;
+  height: 36px;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 25px;
+}
+
+.select_box {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.select_box h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.search_input {
+  display: flex;
+  width: 208px;
+  height: 38px;
+  padding: 9px 12px;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+}
+
+.dropdown_filter {
+  width: 208px;
+  border-radius: 2px;
+}

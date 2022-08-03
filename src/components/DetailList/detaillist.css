@@ -1,0 +1,32 @@
+.detail_list {
+  display: flex;
+  flex-direction: column;
+  width: 805px;
+  height: auto;
+  border: 0px solid;
+  border-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  padding: 24px;
+  gap: 16px;
+}
+
+.detail_list h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.detail_list li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 175%;
+  color: #8a8a8a;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black !important;
+  background-color: white !important;
+}

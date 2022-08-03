@@ -1,0 +1,66 @@
+.banner_sewa {
+  display: flex;
+  align-items: center;
+}
+
+.bannersewa_content {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 326px;
+  background-color: #0d28a6;
+  border-radius: 13px;
+  color: white;
+  text-align: center;
+}
+
+.bannersewa_content h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+}
+
+.bannersewa_content p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 52px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media (max-width: 576px) {
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner_sewa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bannersewa_content {
+    margin-top: 80px;
+    width: 328px;
+    height: 420px;
+  }
+  .bannersewa_content h1 {
+    width: 212px;
+    height: auto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .bannersewa_content p {
+    width: 212px;
+    height: auto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

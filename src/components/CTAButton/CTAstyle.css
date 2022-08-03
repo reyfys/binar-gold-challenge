@@ -1,0 +1,12 @@
+.CTAButton {
+  background-color: #5cb85f;
+  border: 0px;
+  width: 140px;
+  height: 36px;
+  align-items: center;
+  color: white;
+  font-family: arial;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
