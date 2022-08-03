@@ -3,11 +3,12 @@
 }
 
 .footer {
-  display: flex;
-  flex-direction: row;
   margin-top: 150px;
   padding-bottom: 100px;
-  gap: 86px;
+}
+
+.footer_content {
+  display: flex;
   justify-content: space-between;
 }
 
@@ -86,10 +87,14 @@ html {
 @media (max-width: 576px) {
   .footer {
     display: flex;
-    flex-direction: column;
+    margin: 0 auto;
     align-items: flex-start;
     justify-content: center;
+    padding-top: 50px;
+  }
+  .footer_content {
+    display: flex;
+    flex-direction: column;
     gap: 16px;
-    margin-top: 60px;
   }
 }

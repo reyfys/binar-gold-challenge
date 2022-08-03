@@ -17,7 +17,11 @@ const DrawerMenu = (props) => {
 
   return (
     <div>
-      <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)}>
+      <Drawer
+        anchor="right"
+        open={openDrawer}
+        onClose={() => setOpenDrawer(false)}
+      >
         <List className="sidemenu_content">
           <ListItemButton>
             <ListItemIcon>
